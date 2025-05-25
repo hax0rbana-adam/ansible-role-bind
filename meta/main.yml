@@ -3,7 +3,7 @@ galaxy_info:
   namespace: hax0rbana-adam
   role_name: bind
   description: Install and manage bind9 master, slave server and zone.
-  issue_tracker_url: https://github.com/cloud-esgi/ansible-role-bind9/issues
+  issue_tracker_url: https://github.com/hax0rbana-adam/ansible-role-bind9/issues
   license: GPL-3.0-only
   min_ansible_version: "2.1"
 
