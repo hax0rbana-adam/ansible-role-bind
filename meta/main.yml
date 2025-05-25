@@ -1,18 +1,22 @@
 galaxy_info:
-  author: msterhuj
-  namespace: msterhuj
-  role_name: bind9
+  author: hax0rbana-adam
+  namespace: hax0rbana-adam
+  role_name: bind
   description: Install and manage bind9 master, slave server and zone.
   issue_tracker_url: https://github.com/cloud-esgi/ansible-role-bind9/issues
   license: GPL-3.0-only
   min_ansible_version: "2.1"
 
   platforms:
+    - name: Debian
+      versions:
+        - bookworm
     - name: Ubuntu
       versions:
         - jammy
 
   galaxy_tags:
+    - "bind"
     - "bind9"
     - "dns"
 
